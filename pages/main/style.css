@@ -3,6 +3,9 @@
   padding: 0;
   font-family: Arial, Georgia;
 }
+form {
+  outline: none;
+}
 .main-background {
   background-image: url(assets/start-screen-gradient-background.jpg);
   width: 1280px;

@@ -17,6 +17,9 @@ header {
 .header-references li {
   display: inline-flex;
 }
+.logo {
+  cursor: pointer;
+}
 .logo-text {
   font-family: Georgia;
   font-style: normal;
