@@ -1,0 +1,426 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Georgia;
+  user-select: none;
+}
+header {
+  width: 1280px;
+  height: 120px;
+}
+.header-container {
+  display: inline-flex;
+  justify-content: center;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 1);
+}
+.header-references li {
+  display: inline-flex;
+}
+.logo-text {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 0.06em;
+  color: rgba(84, 84, 84, 1);
+  padding: 31px 0px 9px 40px;
+}
+.logo p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: rgba(41, 41, 41, 1);
+  padding: 0px 0px 30px 44px;
+}
+.header-references a {
+  text-decoration: none;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(84, 84, 84, 1);
+}
+.header-references ul {
+  padding: 46px 0px 0px 572px;
+}
+.Our-pets-ref {
+  margin-left: 31px;
+}
+.Help-the-shelter-ref {
+  margin-left: 31px;
+}
+.Contacts-ref {
+  margin-left: 31px;
+  margin-right: 41px;
+}
+.Our-pets-ref span {
+  color: rgba(41, 41, 41, 1);
+  border-bottom: 3px solid rgba(241, 205, 179, 1);
+  padding-bottom: 4px;
+}
+.header-references a:hover {
+  color: rgba(41, 41, 41, 1);
+}
+.header-references a:active {
+  border-bottom: 3px solid rgba(241, 205, 179, 1);
+  padding-bottom: 5px;
+}
+.our-friends {
+  width: 1280px;
+  height: 1342px;
+  background-color: rgba(246, 246, 246, 1);
+}
+.our-friends h3 {
+  text-align: center;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: rgba(84, 84, 84, 1);
+  padding-top: 81px;
+}
+.first-row-pets {
+  display: inline-flex;
+  margin-top: 59px;
+}
+.card {
+  width: 270px;
+  height: 435px;
+  background-color: rgba(250, 250, 250, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+}
+.card:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+.katrine {
+  background-image: url(assets/katrine.png);
+  width: 270px;
+  height: 270px;
+}
+.jennifer {
+  background-image: url(assets/jennifer.png);
+  width: 270px;
+  height: 270px;
+}
+.woody {
+  background-image: url(assets/woody.png);
+  width: 270px;
+  height: 270px;
+}
+.sophia {
+  background-image: url(assets/sophia.png);
+  width: 270px;
+  height: 270px;
+}
+.card p {
+  font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.06em;
+color: rgba(84, 84, 84, 1);
+padding-top: 30px;
+}
+.card button {
+  width: 190px;
+  height: 52px;
+  border-radius: 100px;
+  background-color: rgba(250, 250, 250, 1);
+  font-family: Georgia;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(41, 41, 41, 1);
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  border: 2px solid #F1CDB3;
+  align-items: center;
+  margin-top: 30px;
+  outline: none;
+}
+.card button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.second-row-pets {
+  display: inline-flex;
+  margin-top: 30px;
+}
+.timmy {
+  background-image: url(assets/timmy.png);
+  width: 270px;
+  height: 270px;
+}
+.charly {
+  background-image: url(assets/charly.png);
+  width: 270px;
+  height: 270px;
+}
+.scarlett {
+  background-image: url(assets/scarlet.png);
+  width: 270px;
+  height: 270px;
+}
+.freddie {
+  background-image: url(assets/freddie.png);
+  width: 270px;
+  height: 270px;
+}
+.panel-navigation {
+  display: inline-flex;
+  margin-top: 60px;
+}
+.back-all {
+  height: 52px;
+  width: 52px;
+  border: 2px solid rgba(205, 205, 205, 1);
+  box-sizing: border-box;
+  border-radius: 100px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 13px;
+  font-size: 20px;
+  margin-left: 470px;
+}
+.back-all p {
+  color: rgba(205, 205, 205, 1);
+}
+.back-all:hover {
+  cursor: pointer;
+}
+.back {
+  height: 52px;
+  width: 52px;
+  border: 2px solid rgba(205, 205, 205, 1);
+  box-sizing: border-box;
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 13px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.back p {
+  color: rgba(205, 205, 205, 1);
+}
+.back:hover {
+  cursor: pointer;
+}
+.page-number {
+  height: 52px;
+  width: 52px;
+  background-color: rgba(253, 220, 196, 1);
+  box-sizing: border-box;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  border-radius: 100px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 23px;
+  padding-top: 14px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.page-number p {
+  color: rgba(41, 41, 41, 1);
+}
+.page-number:hover {
+  cursor: pointer;
+  background-color: rgba(241, 205, 179, 1);
+}
+.forward {
+  height: 52px;
+  width: 52px;
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 13px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.forward p {
+  color: rgba(41, 41, 41, 1);
+}
+.forward:hover {
+  cursor: pointer;
+}
+.forward-all {
+  height: 52px;
+  width: 52px;
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  letter-spacing: 0.06em;
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 13px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.forward-all p {
+  color: rgba(41, 41, 41, 1);
+}
+.forward-all:hover {
+  cursor: pointer;
+}
+.footer-background {
+  background-image: url(assets/footer-gradient-background.png);
+  height: 350px;
+  width: 1280px;
+}
+.footer-text {
+  display: inline-flex;
+}
+.footer-bg-dog {
+  background-image: url(assets/footer-puppy.png);
+  width: 300px;
+  height: 310px;
+  margin: 40px 0px 0px 168px;
+}
+.email-phone {
+  padding-top: 56px;
+}
+.first-icon-container {
+  display: flex;
+  flex-direction: column;
+}
+.second-icon-container {
+  display: flex;
+  flex-direction: column;
+}
+.position {
+  padding-top: 56px;
+}
+.email-phone h3 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 40px;
+}
+.position h3 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 161px;
+}
+.mail-icon-text {
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: rgba(241, 205, 179, 1);
+  padding: 45px 0px 0px 20px;
+}
+.mail-icon {
+  background-image: url(assets/mail.png);
+  width: 40px;
+  height: 26px;
+  margin: 43px 0px 0px 14px;
+}
+.mail-icon:hover {
+  cursor: pointer;
+}
+.mail-icon a:hover {
+  cursor: pointer;
+}
+.phone-icon:hover {
+  cursor: pointer;
+}
+.phone-icon a:hover {
+  cursor: pointer;
+}
+.pin-icon1 a:hover {
+  cursor: pointer;
+}
+.pin-icon1:hover {
+  cursor: pointer;
+}
+.pin-icon2 a:hover {
+  cursor: pointer;
+}
+.pin-icon2:hover {
+  cursor: pointer;
+}
+.phone-icon-text {
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: rgba(241, 205, 179, 1);
+  padding: 42px 0px 0px 20px;
+}
+.phone-icon {
+  background-image: url(assets/phone.png);
+  width: 40px;
+  height: 32px;
+  margin-top: 43px;
+}
+.phone-mail-bg {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+}
+.pin-icon-text1 {
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: rgba(241, 205, 179, 1);
+  padding: 34px 0px 0px 20px;
+}
+.pin-icon1 {
+  background-image: url(assets/pin.png);
+  width: 22px;
+  height: 32px;
+  margin: 40px 0px 0px 160px;
+}
+.pin-icon-text2 {
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: rgba(241, 205, 179, 1);
+  padding: 37px 0px 0px 20px;
+}
+.pin-icon2 {
+  background-image: url(assets/pin.png);
+  width: 22px;
+  height: 32px;
+  margin: 32px 0px 0px 135px;
+}
+.pin-icon-bg {
+  display: flex;
+}
