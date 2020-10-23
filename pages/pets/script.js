@@ -1,3 +1,13 @@
+menu.onclick = function myFunctional(){
+	var x = document.getElementsByTagName('references');
+	
+	if (x.className === "header-references") {
+		x.className += " responsive";
+	} else {
+		x.className = "header-references";
+	}
+}
+
 let clicks = 1;
 
 function forwardClick() {
